@@ -12,7 +12,7 @@
         <?php include_once 'bootsrap.php'; ?>
     </head><div id="abineFillElement"></div>
     <body>
-        <nav class="navbar navbar-default" <div="">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;;"> <div="">
                 <div class="navbar-header">
                     <a href="" class="navbar-brand">PHP POO - Geometrie</a>
                 </div>
@@ -40,14 +40,13 @@
                         $req=$db->prepare("SELECT id from polygones");
                         $req->execute();
                         $resultid=$req->fetchAll();
-                        //var_dump($resultid);
                         $idTriangle= $resultid[$id]['id'];
-                    //On créer la ligne du tableau en ajoutant
+                    //On créer la ligne du tableau correspondant au polygone.
                     echo "<tr><td> ".$idTriangle."</td>";
                     echo "<td> $poly </td>";
                     echo '<td><a href="voirTriangle.php?id='.$idTriangle.'" class="btn btn-primary glyphicon glyphicon-play"></a></td>';
                     echo '<td><a href="modifierTriangle.php?id='.$idTriangle.'"class="btn btn-success glyphicon glyphicon-pencil"></a></td>';
-                    echo '<td><a onclick="return confirm("Êtes-vous sûr de vouloir supprimer ce triangle ?")" href="supprimerTriangle.php?id='.$idTriangle.'" class="btn btn-danger glyphicon glyphicon-remove"</td></tr>';
+                    echo '<td><a onclick="return confirm(\'Êtes-vous sûr de vouloir supprimer ce triangle ?\')" href="supprimerTriangle.php?id='.$idTriangle.'" class="btn btn-danger glyphicon glyphicon-remove"></a></td></tr>';
                     }
                     //Pour des raisons de sécurité on met la varibale bd a null.
                     $bd =null;
@@ -57,7 +56,7 @@
 
             </div>
         <hr>
-        <div class="container">© PRIOU Dylan 2017</div>
+        <div class="container">&copy; PRIOU Dylan CORFA Sylouan MALARD Davy PARRA Adrien 2017</div>
     </body>
 </html>
 

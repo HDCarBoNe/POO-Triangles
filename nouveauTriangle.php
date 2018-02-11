@@ -82,6 +82,6 @@
 
         </div>
         <hr>
-        <div class="container">&copy; POEC 2017</div>
+        <div class="container">&copy; PRIOU Dylan CORFA Sylouan MALARD Davy PARRA Adrien 2017</div>
     </body>
 </html>
