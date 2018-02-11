@@ -14,7 +14,7 @@
     <body>
         <nav class="navbar navbar-light" style="background-color: #e3f2fd;;"> <div="">
                 <div class="navbar-header">
-                    <a href="" class="navbar-brand">PHP POO - Geometrie</a>
+                    <a href="index.php" class="navbar-brand">PHP POO - Geometrie</a>
                 </div>
         <div class="container">
             

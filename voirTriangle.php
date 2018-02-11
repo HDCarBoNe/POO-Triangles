@@ -55,11 +55,20 @@
 	</script>
 	<!-- On affiche une bordure afin de voir les limites du canvas -->
 	<style type="text/css">canvas {border: 1px solid black; }</style>
+	<?php include_once 'bootsrap.php'; ?>
 </head>
 <!-- Lorsque la page a fini de charger on execute la fonction dessiner() -->
 <body onload="dessiner();">
+	<nav class="navbar navbar-light" style="background-color: #e3f2fd;;"> <div="">
+                <div class="navbar-header">
+                    <a href="index.php" class="navbar-brand">PHP POO - Geometrie</a>
+                </div>
+        <div class="container">
+            
+        </nav>
 	<!-- La taille du canvas est de 1000x1000 car dans index.php nous avons défini que les valeurs des points du triangles sont comprisent entre 0 et 1000 -->
 	<canvas id="Triangle" width="1000" height="1000"></canvas>
+	<div class="container">&copy; PRIOU Dylan CORFA Sylouan MALARD Davy PARRA Adrien 2017</div>
 </body>
 </html>
 

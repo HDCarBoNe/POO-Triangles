@@ -6,12 +6,12 @@
         <?php include_once 'bootsrap.php'; ?>
     </head>
     <body>
-        <nav class="navbar navbar-default"
-            <div class="content-fluid">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;;"> <div="">
                 <div class="navbar-header">
-                    <a href="" class="navbar-brand">PHP POO - Geometrie</a>
+                    <a href="index.php" class="navbar-brand">PHP POO - Geometrie</a>
                 </div>
-            </div>
+        <div class="container">
+            
         </nav>
         <div class="container">
 
